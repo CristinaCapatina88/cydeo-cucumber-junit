@@ -39,9 +39,6 @@ public class TryCloud_Page {
     @FindBy (xpath = "//span[@class='icon icon-add']")
     public WebElement addIcon;
 
-    @FindBy (xpath = "//span[.='Upload file']")
-    public WebElement uploadFile;
-
     @FindBy (xpath = "//input[@id='file_upload_start']")
     public WebElement uploadFileIgor;
 

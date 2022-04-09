@@ -40,7 +40,7 @@ TryCloud_Page tryCloudPage= new TryCloud_Page();
       tryCloudPage.addIcon.click();
     }
     @And("users uploads {string} with the upload file option")
-    public void usersUploadsWithTheUploadFileOption(String file) throws AWTException {
+    public void usersUploadsWithTheUploadFileOption(String file) {
 //        tryCloudPage.uploadFile.click();
 //        Robot rb= new Robot();
 //        StringSelection str = new StringSelection(file);
